@@ -71,6 +71,7 @@ The microservice provides a RESTful API for managing chore reminders. You can in
 
 B. how to programmatically RECEIVE data
 This section demonstrates how to explicitly retrieve information from the microservice. While all requests receive a response, this section focuses specifically on the endpoint designed for polling data that has been dispatched by the server.
+
 	1. Getting dispatched reminders
 	To receive reminders that have become due, send a GET request to the /dispatched endpoint. The server will return a list of all reminders that have been dispatched since the last time this endpoint was called.
 	Example Call:
