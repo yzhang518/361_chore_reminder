@@ -1,7 +1,9 @@
 This microservice provides a RESTful API to manage and dispatch chore reminders.
 
 How to Run the Microservice
+
 To get this microservice up and running, follow these steps:
+
 	1. Prerequisites: Ensure you have Python installed on your system. 
 	2. Install dependencies: Open your terminal or command prompt, and with your virtual environment activated, install all the required packages from your requirements.txt file using pip:
 		pip install -r requirements.txt
