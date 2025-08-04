@@ -13,6 +13,7 @@ To get this microservice up and running, follow these steps:
 
 A. how to programmatically REQUEST data 
 The microservice provides a RESTful API for managing chore reminders. You can interact with it using standard HTTP requests.
+
 	1. Creating a new reminder
 	To create a new reminder, send a POST request to the /reminders endpoint with a JSON payload.
 	Example Call:
